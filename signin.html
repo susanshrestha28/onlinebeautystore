@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Signin/Signup</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='signin.css'>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <p>Secret Beauty</p>
+        </div>
+        <div class="subHeader">
+            <p id="signHeader">Sign In</p>
+        </div>
+        <div class="usernameIndicator">
+            <p>Username or email address</p>
+        </div>
+        <div class="inputSection">
+            <input id='username'>
+        </div>
+        <div class="usernameIndicator">
+            <p>Password</p>
+        </div>
+        <div class="inputSection">
+            <input id="password" type="password">
+        </div>
+        <div class="showPass">
+            <div class="showpassSub">
+                <button id="showPass" onclick="showPassword()">Show Password</button>
+            </div>
+        </div>
+        <div id="signin" class="signin">
+            <button onclick="signIn()">Sign In</button>
+        </div>
+        <div id="signup" class="signin">
+            <button onclick="signUp()">Sign Up</button>
+        </div>
+        <div class="secondLast">
+            <div class="secondlastSub">
+                <a >Forget Password</a> 
+                <a onclick="signPageShow()" id="signPageShow">Create an account</a>
+            </div>
+        </div>
+        <!-- <div class="last">
+            <div class="lastSub">
+                <a >Forget Password</a>
+            </div>
+        </div> -->
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-firestore.js"></script>   
+</body>
+<script src="./signin.js"></script>
+</html>

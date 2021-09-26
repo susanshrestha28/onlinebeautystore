@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    font-family: poppins;
+}.main {
+   width: 100vw;
+   min-height: 100vh;
+   height: fit-content;
+   background-color: lightpink;
+   background-image: url('https://images.financialexpress.com/2021/08/beauty.jpg');
+   background-size: cover;
+}.header {
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+}.header > p {
+    font-weight: 800;
+    font-size: xx-large;
+    margin-top: 40px;
+}.subHeader {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}.subHeader > p {
+    margin-top: 20px;
+    font-size: x-large;
+}.usernameIndicator {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}.usernameIndicator > p {
+    margin-top: 30px;
+    font-size: large;
+}.inputSection {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}.inputSection > input {
+    width: 30vw;
+    height: 40px;
+    margin-top: 20px;
+    font-size: large;
+}.showPass {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}.showpassSub {
+    width: 30vw;
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}.showpassSub > button {
+    width: 30%;
+    outline: 0;
+    border: transparent;
+    height: fit-content;
+}.signin {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}.signin > button {
+    width: 10vw;
+    margin-top: 20px;
+    height: 40px;
+    outline: 0;
+    border: transparent;
+}.secondLast {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}.secondlastSub {
+    width: 35vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}.secondlastSub > a {
+    color: rgb(85, 85, 236);
+    border-bottom: 1px solid rgb(85, 85, 236);
+    cursor: pointer;
+}.last {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}.lastSub {
+    width: 35vw;
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+}.lastSub > a {
+    color: rgb(85, 85, 236);
+    border-bottom: 1px solid rgb(85, 85, 236);
+    cursor: pointer;
+}#signup {
+    display: none;
+}
